@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="assets/images/logo/Netflix_Symbol.png">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/selected_poster.css">
+    <link rel="stylesheet" href="styles/posters.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left-section">
+            <a href="http://localhost:5500/chap_01_HTML_CSS/assignment/index.html">
+                <img class="netflix-logo" src="assets/images/logo/Netflix_Logo.png">
+            </a>
+            <div class="menu">Home</div>
+            <div class="menu">Netflix Original</div>
+            <div class="menu">Trending Now</div>
+        </div>
+        <div class="right-section">
+            <img class="search-icon" src="assets/icons/svg/search.svg">
+            <img class="notifications-icon" src="assets/icons/svg/notifications.svg">
+            <img class="current-user-picture" src="assets/images/avatars/Netflix_avatar.png">
+        </div>
+    </header>
+    <main>
+        <section class="selected_poster">
+            <div class="shadow_box"></div>
+            <div class="selected_poster_info"></div>
+            <div class="selected_poster_buttons">
+                <button class="play_button">
+                    <img class="play_icon" src="assets/icons/img/play.png">
+                    <div class="play_text">Play</div>
+                </button>
+                <button class="info_button">
+                    <img class="info_icon" src="assets/icons/img/information.png">
+                    <div class="info_text">Info</div>
+                </button>
+            </div>
+            <div class="info_detail"></div>
+        </section>
+        <section class="posters">
+            <div class="posters_title">NETFLIX ORIGINAL</div>
+            <div class="posters_original"></div>
+            <div class="posters_title">TRENDING NOW</div>
+            <div class="posters_trending"></div>
+        </section>
+    </main>
+</body>
+
+</html>
