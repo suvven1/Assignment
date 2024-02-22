@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 33%;
+    width: 50%;
     height: 100vh;
     background-color: white;
 }
