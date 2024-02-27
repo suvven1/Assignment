@@ -1,0 +1,55 @@
+#export-btn {
+    background: #04AB46;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.filebox {
+    display: inline-block;
+
+}
+
+.filebox label {
+    color: #04AB46;
+    border: 1px solid #04AB46;
+    padding: 7px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.filebox input[type="file"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+}
+
+.cell-row {
+    display: flex;
+}
+
+.cell {
+    width: 80px;
+    border: 1px solid lightgray;
+    height: 40px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.cell.header {
+    text-align: center;
+    background: #04ab47d5;
+    color: white;
+}
+
+.cell.header.active {
+    background: lightgreen;
+    color: white;
+}
